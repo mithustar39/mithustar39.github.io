@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Mithun Dhanasuthan &middot; Resume</title>
+  <meta name="description" content="Resume of Mithun Dhanasuthan">
+  <link rel="icon" href="data:,">
+  <style>
+    :root { color-scheme: light; }
+    * { box-sizing: border-box; }
+    html, body { height: 100%; margin: 0; }
+    body {
+      display: flex; flex-direction: column;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      background: #f5f5f7; color: #1d1d1f;
+    }
+    header {
+      display: flex; align-items: center; justify-content: space-between; gap: 1rem;
+      padding: 0.7rem 1.1rem; background: #fff; border-bottom: 1px solid #e3e3e6;
+    }
+    .who { display: flex; flex-direction: column; line-height: 1.25; }
+    .who strong { font-size: 0.95rem; font-weight: 600; letter-spacing: -0.01em; }
+    .who span { font-size: 0.78rem; color: #6e6e73; }
+    .dl {
+      display: inline-flex; align-items: center; gap: 0.4rem;
+      padding: 0.45rem 0.85rem; border-radius: 8px;
+      background: #1d1d1f; color: #fff; text-decoration: none;
+      font-size: 0.82rem; font-weight: 500; white-space: nowrap;
+    }
+    .dl:hover { background: #3a3a3c; }
+    main { flex: 1; min-height: 0; }
+    object, iframe { width: 100%; height: 100%; border: 0; display: block; }
+    .fallback { padding: 2rem; text-align: center; color: #6e6e73; font-size: 0.9rem; }
+    .fallback a { color: #1d1d1f; }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="who">
+      <strong>Mithun Dhanasuthan</strong>
+      <span>Resume</span>
+    </div>
+    <a class="dl" href="resume.pdf" download>Download PDF</a>
+  </header>
+  <main>
+    <object data="resume.pdf#view=FitH" type="application/pdf" aria-label="Mithun Dhanasuthan resume">
+      <div class="fallback">
+        Your browser can't display PDFs inline.
+        <a href="resume.pdf">Open the resume&nbsp;&rarr;</a>
+      </div>
+    </object>
+  </main>
+</body>
+</html>
